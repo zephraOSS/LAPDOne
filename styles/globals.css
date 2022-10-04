@@ -13,6 +13,10 @@ body {
     font-family: sans-serif;
 }
 
+body:has(header) {
+    padding-top: 120px;
+}
+
 body, #__next {
     height: 100vh;
     min-height: 100vh;
