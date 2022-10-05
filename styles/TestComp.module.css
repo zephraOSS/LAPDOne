@@ -60,3 +60,29 @@
 .submit:hover {
     background-color: var(--bg-color-blue-second);
 }
+
+@media screen and (max-width: 650px) {
+    .container {
+        width: 100%;
+    }
+
+    .itemContainer {
+        flex: 100%;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 950px) {
+    .container {
+        width: 75%;
+    }
+
+    .itemContainer {
+        flex: 100%;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1500px) {
+    .itemContainer {
+        flex: 100%;
+    }
+}
