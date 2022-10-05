@@ -38,5 +38,5 @@
 }
 
 .item a:hover {
-    color: var(--color-white-hover);
+    color: var(--color-white-second);
 }
