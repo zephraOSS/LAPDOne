@@ -47,7 +47,7 @@ function App({ Component, pageProps }: AppProps) {
                 <link
                     rel="shortcut icon"
                     type="image/x-icon"
-                    href="/favicon/favicon.png"
+                    href="/favicon/favicon.ico"
                 />
                 <link rel="manifest" href="/static/manifest.json" />
             </Head>
