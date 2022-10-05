@@ -1,0 +1,38 @@
+[
+    {
+        "text": "Are you at least 20 years old?",
+        "correct": true,
+        "score": 10
+    },
+    {
+        "text": "Do you have one of the following degrees?",
+        "list": [
+            "U.S. High School",
+            "G.E.D. or equivalent from a U.S. institution",
+            "California High School Proficiency (CHSPE) Certificate"
+        ],
+        "score": 10
+    },
+    {
+        "text": "What is you citizenship status?",
+        "select": [
+            {
+                "text": "U.S. Citizen",
+                "score": 10
+            },
+            {
+                "text": "Permanent Resident (eligible and applied for U.S. citizenship)",
+                "score": 10
+            },
+            {
+                "text": "None of the above",
+                "score": 0
+            }
+        ]
+    },
+    {
+        "text": "A history of ethical and moral behavior is of the utmost importance. Are you in a position to claim this about yourself?",
+        "correct": true,
+        "score": 10
+    }
+]
