@@ -6,16 +6,16 @@ export function TestComp() {
         <div className={styles.container}>
             <form action="" onSubmit={(e) => e.preventDefault()}>
                 <div className={styles.items}>
-                    {questions.map((data) => {
+                    {questions.map((data, i) => {
                         return (
-                            <div className={styles.itemContainer}>
+                            <div className={styles.itemContainer} key={i}>
                                 <div className={styles.item}>
                                     <p className={styles.text}>{data.text}</p>
 
                                     {data.list ? (
                                         <ul className={styles.list}>
-                                            {data.list.map((item) => {
-                                                return <li>{item}</li>;
+                                            {data.list.map((item, i) => {
+                                                return <li key={i}>{item}</li>;
                                             })}
                                         </ul>
                                     ) : (
@@ -42,7 +42,10 @@ export function TestComp() {
                                                 </option>
                                                 {data.select.map((item, i) => {
                                                     return (
-                                                        <option value={i}>
+                                                        <option
+                                                            value={i}
+                                                            key={i}
+                                                        >
                                                             {item.text}
                                                         </option>
                                                     );
