@@ -1,0 +1,42 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 99999;
+    user-select: none;
+    box-sizing: border-box;
+    background-color: var(--bg-color-blue);
+}
+
+.badge {
+    width: 75px;
+    margin: 0 auto;
+    padding-top: 5px;
+    pointer-events: none;
+    filter: drop-shadow(3px 3px 3px #222);
+}
+
+.items {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}
+
+.items.right {
+    right: 50px;
+    left: unset;
+}
+
+.item a {
+    font-weight: bold;
+    color: var(--color-white);
+    text-decoration: none;
+    transition: color var(--transition);
+}
+
+.item a:hover {
+    color: var(--color-white-second);
+}
