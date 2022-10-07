@@ -2,7 +2,8 @@
     {
         "text": "Are you at least 20 years old?",
         "correct": true,
-        "score": 10
+        "required": true,
+        "score": 13.33
     },
     {
         "text": "Do you have one of the following degrees?",
@@ -11,28 +12,67 @@
             "G.E.D. or equivalent from a U.S. institution",
             "California High School Proficiency (CHSPE) Certificate"
         ],
-        "score": 10
+        "correct": true,
+        "required": true,
+        "score": 13.33
     },
     {
         "text": "What is you citizenship status?",
         "select": [
             {
                 "text": "U.S. Citizen",
-                "score": 10
+                "score": 13.33
             },
             {
                 "text": "Permanent Resident (eligible and applied for U.S. citizenship)",
-                "score": 10
+                "score": 13.33
             },
             {
                 "text": "None of the above",
                 "score": 0
             }
-        ]
+        ],
+        "requireScore": true
     },
     {
         "text": "A history of ethical and moral behavior is of the utmost importance. Are you in a position to claim this about yourself?",
         "correct": true,
-        "score": 10
+        "required": true,
+        "score": 8.57
+    },
+    {
+        "text": "Do you have interpersonal skills, sensitivity, and respect for others?",
+        "correct": true,
+        "score": 8.57
+    },
+    {
+        "text": "Are you able to analyze situations quickly and make sound decisions?",
+        "correct": true,
+        "somewhat": 4.285,
+        "score": 8.57
+    },
+    {
+        "text": "Are you able to work independently and as a team member?",
+        "correct": true,
+        "somewhat": 4.285,
+        "score": 8.57
+    },
+    {
+        "text": "Are you able to communicate effectively, both orally and in writing?",
+        "correct": true,
+        "somewhat": 4.285,
+        "score": 8.57
+    },
+    {
+        "text": "Are you able to work under pressure and meet deadlines?",
+        "correct": true,
+        "somewhat": 4.285,
+        "score": 8.57
+    },
+    {
+        "text": "Are you able to work with a variety of people?",
+        "correct": true,
+        "somewhat": 4.285,
+        "score": 8.57
     }
 ]
