@@ -1,7 +1,5 @@
 import type { NextPage } from "next";
 
-import Image from "next/image";
-
 import { TestComp } from "../components/TestComp";
 
 import styles from "../styles/Home.module.css";
