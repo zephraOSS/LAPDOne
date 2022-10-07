@@ -77,6 +77,7 @@ export function TestComp() {
                                     "https://www.joinlapd.com/there-are-seven-steps-application-process"
                                 }
                                 target={"_blank"}
+                                rel={"noreferrer"}
                             >
                                 apply
                             </a>
