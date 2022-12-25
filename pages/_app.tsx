@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 
 import { HeaderComp } from "../components/HeaderComp";
+import { FooterComp } from "../components/FooterComp";
 
 import "../styles/globals.css";
 
@@ -53,6 +54,7 @@ function App({ Component, pageProps }: AppProps) {
             </Head>
             <HeaderComp />
             <Component {...pageProps} />
+            <FooterComp />
         </>
     );
 }
